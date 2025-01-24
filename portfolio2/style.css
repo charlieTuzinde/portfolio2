@@ -41,6 +41,10 @@ html {
     bottom:10px;
 }
 
+
+
+
+
 .sec1 {
     /* the part with profile pic */
     position: relative;
@@ -74,35 +78,14 @@ html {
     transition: .5s;
 }
 
-.menuBar.active {
-    left: 20%;
-}
 
-.menuBar ul {
-    list-style-type: none;
-}
 
-.menuBar ul li {
-    margin: 5rem 0;
-}
 
-.menuBar ul li a {
-    position: relative;
-    text-decoration: none;
-    color: #fff;
-    font-size: 2rem;
-    padding: 1.5rem;
-    transition: .5s;
-    background: #e66060;
-    padding: 1rem 3rem;
-    border-radius: 3rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
-
-}
 
 
 .menuBar ul li a:hover {
-    color: #e66060;
+    color: #ce606b;
+    font-weight: 700px;
     /* background: #fff; */
 }
 
@@ -120,30 +103,7 @@ html {
     z-index: 2000;
 }
 
-.sec1__menuIcon {
-    display: none;
-    position: relative;
-    height: 3rem;
-    width: 3rem;
-    background: url('https://i.ibb.co/ccyJDPg/icons8-menu-24.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: .5s;
-}
 
-.sec1__menuIcon.active {
-    background: url('https://i.ibb.co/G9TDqVj/icons8-macos-close-32.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.navBar .logo h1 {
-    color: #333;
-    font-size: 2rem;
-    letter-spacing: .2rem;
-}
 
 .navBar .navBar__menu ul {
     display: flex;
@@ -157,8 +117,8 @@ html {
 .navBar .navBar__menu ul li a {
     position: relative;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 800;
+    font-size: 2.1rem;
     padding-bottom: 1rem;
     color: #333;
     transition: .3s;
@@ -173,7 +133,7 @@ html {
     height: .4rem;
     width: 0%;
     border-radius: 1rem;
-    transition: .4s;
+    transition: .7s;
 }
 
 .navBar .navBar__menu ul li a:hover:before {
@@ -182,7 +142,7 @@ html {
 
 
 .navBar .navBar__menu ul li a:hover {
-    color: rgb(226, 86, 86);
+    color: rgb(43, 201, 45);
 }
 
 .sec1__container {
@@ -363,12 +323,13 @@ html {
 }
 
 .sec2__heading h2:before {
-    content: "";
+    
     position: absolute;
     bottom: 0;
     right: 0;
     height: .2rem;
     width: 100%;
+   
     background-color: rgb(241, 102, 102);
 }
 
@@ -379,8 +340,9 @@ html {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+   
 
-    padding: 0 5rem;
+    padding: 5 5rem;
 }
 
 .sec2__aboutme1 {
@@ -678,11 +640,11 @@ html {
 
 .sec4__content1 h2 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     border-bottom: .2rem solid #ff7b7b;
     width: fit-content;
-    padding-bottom: .5rem;
-    margin-bottom: .5rem;
+    padding-bottom: -4rem;
+    margin-bottom: .1rem;
 }
 
 
@@ -702,7 +664,8 @@ html {
 }
 
 .sec4__content2Icon h2 {
-    margin-left: .5rem;
+    margin-left: 1rem;
+    ;
 }
 
 .sec4__content2 {
@@ -727,7 +690,7 @@ html {
     border: .2rem solid #fff;
     padding: .4rem;
     border-radius: 20%;
-    transition: .3s;
+    transition: .8s;
 }
 
 .sec4__content3 ul li a:hover {
@@ -742,34 +705,13 @@ html {
     margin-bottom: .5rem;
 }
 
-.sec4__links ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    list-style-type: none;
-}
 
-.sec4__links ul li {
-    margin: .5rem 0;
-}
-
-.sec4__links ul li a {
-    color: rgba(255, 255, 255, .5);
-    transition: .3s;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-.sec4__links ul li a:hover {
-    color: #fff;
-}
 
 .sec4__box3 h2 {
     color: #fff;
     font-size: 3rem;
     border-bottom: .2rem solid #ff7d7d;
-    padding-bottom: .5rem;
+    padding-bottom: 5rem;
     margin-bottom: .5rem;
     width: fit-content;
 }
@@ -779,6 +721,7 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    width: fit-content;
 }
 
 .sec4__box3 form input {
@@ -788,13 +731,14 @@ html {
     box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
     padding: .5rem 1rem;
     margin: 1rem 0;
-    width: 100%;
+    width: 426px;
     border-radius: 3rem;
 }
 
 .sec4__box3 form input::placeholder {
-    color: #333;
-    font-size: 1.1rem;
+    color: #0e0606;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .sec4__box3 form button {
